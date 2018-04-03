@@ -1,1 +1,91 @@
-<h1>blog . . .</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="guidanceGroup.co.in">
+<meta name="keywords" content="MPSC,UPSC,GUIDANCE,GROUP,MENTOR,CONTACT,Youtube">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Guidance Group - Blog</title>
+<link rel="icon" type="image/gif/png" href="img/GGlogo.png">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-cookies.js"></script>
+
+<script type="text/javascript" src="js/blog.js" ></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#banner{ 
+padding: 60px 50px;
+font-family: Montserrat, sans-serif;
+color: white;
+line-height: 1.5 !important;
+letter-spacing: 4px;
+}
+a{color:white}
+.spacing{padding: 60px 50px;}
+.shadow{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+</style>
+</head>
+<body ng-app="myBlog" ng-controller="blogControl">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="container-fluid">
+<div id="banner" class="row shadow" style="background-color:#ffad33;">
+<div class="col-md-12 text-center">
+<img class="rounded img-fluid" src="img/profile.png" width="100" height="100">
+<br><br>
+<div class="">
+<a href="">Blog</a> | <span><a href="">Home</a></span> | <span><a href="">Contact</a></span>
+</div>
+</div>
+</div>
+<div id="" class="row spacing " style="background-color:;">
+<div class="col-md-2"></div>
+<div class="col-md-8 ">
+<div class="card" ng-repeat="x in ['a' , 'b']" style="margin-bottom:2%;" >
+  <div class="card-body">
+		<div id="" class="row" style="background-color:;">
+		<div class="col-md-2">
+		<img class="rounded img-fluid" src="img/profile.png" width="100" height="100">
+		</div>
+		<div class="col-md-10">
+		<h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+		</div>
+		 </div>
+  </div>
+  <div class="card-footer text-muted text-right">
+    2 days ago
+  </div>
+</div>
+</div>
+<div class="col-md-2 "></div>
+</div>
+<div class="fb-page" data-href="https://www.facebook.com/guidancegroup1/" 
+data-width="340" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+<blockquote cite="https://www.facebook.com/guidancegroup1/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/guidancegroup1/">Guidance Group</a>
+</blockquote>
+</div>
+</div>
+</body>
+</html>
