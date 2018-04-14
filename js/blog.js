@@ -4,11 +4,9 @@ var blog = angular.module('myBlog', [ 'ngRoute','ngCookies' ]);
 blog.config([ '$routeProvider', function($routeProvider) {
 	
 	$routeProvider
-	.when('/:page', {
-         templateUrl: function(routeParams){
-             		return 'blogs/'+routeParams.page+'.html';
-        		}
-    	})
+	.when('/home', {
+		templateUrl : 'blogs/Home.html',
+	})
 	.otherwise({
 		redirectTo : '/home'
 	});
